@@ -10,11 +10,9 @@ I have always had a nack for coding and decided to take the leap into learning d
 
 Access the delpoyed website which should bring you to this landing page with the hero banner.
 
-    ```md
-    ![alt text](/assets/images/Hero-Page.png)
-    ```
-
-
+ 
+![Landing Page of Protfolio](https://github.com/Moh-Zaman/Front-End-Development-Portfolio/blob/main/assets/images/Hero-Page.png)
+    
 ## License
 
 MIT License provided in repo

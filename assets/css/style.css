@@ -26,11 +26,13 @@ header {
  header h1 {
   display: flex;
   align-items: start;
-  width: 25%;
+  width: 350px;
   font-size: 50px;
   background-color: rgba(50, 136, 194, 0.7);
+  background-size: cover;
   border-bottom: 5px solid black;
   padding-left: 20px;
+  white-space: nowrap;
 }
 
  .navigation {
@@ -172,4 +174,32 @@ header {
 #contact-text a {
   text-decoration: none;
   cursor: pointer;
+}
+
+/* Screen size Adjustments */
+@media only screen and (max-width: 790px) {
+.navigation {
+  display: none;
+}
+h1 {
+  position: static;
+  margin: 20px;
+}
+.hero-banner h2 {
+  position: static;
+}
+.page-wrapper {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "about"
+  "about-text"
+  "work"
+  "horiseon"
+  "wip1"
+  "wip2"
+  "wip3"
+  "contact"
+  "contact-text"
 }

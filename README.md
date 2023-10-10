@@ -10,6 +10,7 @@ I have always had a nack for coding and decided to take the leap into learning d
 
 Access the delpoyed website which should bring you to this landing page with the hero banner.
 
+The website can be accessed here: https://moh-zaman.github.io/Moh-Zaman-Front-End-Development-Portfolio/
  
 ![Landing Page of Protfolio](https://github.com/Moh-Zaman/Front-End-Development-Portfolio/blob/main/assets/images/Hero-Page.png)
     

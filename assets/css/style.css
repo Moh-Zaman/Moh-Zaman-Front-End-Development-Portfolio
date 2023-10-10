@@ -69,7 +69,6 @@ header {
   right: 25px;
   top: 200px;
   padding: 25px;
-  max-width: 550px;
   z-index: 100;
 }
 
@@ -187,6 +186,7 @@ h1 {
 }
 .hero-banner h2 {
   position: static;
+  text-align: center;
 }
 .page-wrapper {
   display: grid;
@@ -201,5 +201,10 @@ h1 {
   "wip2"
   "wip3"
   "contact"
-  "contact-text"
+  "contact-text";
+  max-height: 200px;
+}
+.page-title-section {
+  border-right: none;
+}
 }
